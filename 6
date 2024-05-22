@@ -1,0 +1,20 @@
+def (1)
+ctrana = {
+    'Россия': 'Москва',
+    'США': 'Вашингтон, округ Колумбия',
+    'Китай': 'Пекин',
+    'Индия': 'Нью-Дели',
+    'Япония': 'Токио',
+    'Германия': 'Берлин',
+    'Франция': 'Париж',
+    'Великобритания': 'Лондон',
+    'Италия': 'Рим',
+    'Канада': 'Оттава'
+}
+for country, capital in ctrana.items():
+    print(f'{country}: {capital}')
+print("Столица Франции:", ctrana['Франция'])
+sorted_ctrana = sorted(ctrana.keys())
+for country in sorted_ctrana:
+    print(f'{country}: {ctrana[country]}')
+(1)
